@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Drafts / scratchpad
+*.draft.md
+SKILL.draft.md
+
+# Internal references (work IP, kept out of public repo)
+references/
