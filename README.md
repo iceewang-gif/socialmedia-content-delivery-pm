@@ -107,4 +107,4 @@ cp -r socialmedia-content-delivery-pm ~/.claude/skills/
 
 ## 关于 references
 
-`references/` 原文不公开、不私下分发——本仓库以 SKILL.md 设计 + 上文 References 骨架描述呈现完整能力。想看真实运行效果，可约现场演示。
+`references/` 原文不公开、不私下分发——本仓库以 SKILL.md 设计 + 上文 References 骨架描述呈现完整能力。想看真实运行效果，可沟通进行demo录制⏺️。
