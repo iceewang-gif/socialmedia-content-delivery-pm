@@ -1,6 +1,6 @@
 # 社媒内容项目交付助手 Skill
 
-> Claude Code / Claude Agent SDK 的自定义 Skill —— 把零散的甲方社媒内容 Brief、沟通记录或项目现状，整理成项目负责人可直接推进的交付方案。
+> 把零散的甲方社媒内容 Brief、沟通记录或项目现状，整理成项目负责人可直接推进的交付方案。
 
 ## 这个 Skill 解决什么
 
@@ -35,7 +35,7 @@ cp -r socialmedia-content-delivery-pm ~/.claude/skills/
 
 重启 Claude Code，Skill 会被自动识别。
 
-> ⚠️ **本仓库不含 `references/` 目录**，原因见下文「关于 references」。
+> ⚠️ **本公开仓库不含 `references/` 目录**，原因见下文「关于 references」。
 > 不含 references 时，Skill 的主体决策路径（路由表、决策门、Workflow、12 项信息抽取要素、8 个项目阶段、12 类风险、14 种交付物菜单）仍可独立工作；但深度引用（如对照《项目需求初步确认单模板》检查完整度、按《素人爆款笔记生产指南》生成质检清单）需要使用者自备 references/ 下对应文件。
 
 ## 使用方式
@@ -58,21 +58,3 @@ cp -r socialmedia-content-delivery-pm ~/.claude/skills/
 
 - 让 Claude 写单条笔记 / 标题 / 文案
 - 单纯问社媒知识
-
-## 关于 references
-
-`references/` 目录是该 Skill 的方法论支撑文档（含项目交付标准化运营手册、爆款笔记生产指南、用户调研分析框架、项目需求初步确认单模板等），是本人和团队在主业公司的工作产出，涉及内部 SOP 和团队方法论，**不在本仓库公开**。
-
-> **想体验完整效果**：完整版（含 references）可单独沟通获取，或直接在 Claude Code 中调用本 Skill 现场演示。
-
-## 结构
-
-```
-socialmedia-content-delivery-pm/
-├── SKILL.md           # Skill 主体：路由表、决策门、Workflow、输出规则、Validation
-└── references/        # 方法论文档（未公开，使用者自备）
-```
-
-## 反馈
-
-如有问题或建议，欢迎提 Issue。
