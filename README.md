@@ -35,8 +35,6 @@ cp -r socialmedia-content-delivery-pm ~/.claude/skills/
 
 重启 Claude Code，Skill 会被自动识别。
 
-> ⚠️ **本公开仓库不含 `references/` 目录**，原因见下文「关于 references」。
-> 不含 references 时，Skill 的主体决策路径（路由表、决策门、Workflow、12 项信息抽取要素、8 个项目阶段、12 类风险、14 种交付物菜单）仍可独立工作；但深度引用（如对照《项目需求初步确认单模板》检查完整度、按《素人爆款笔记生产指南》生成质检清单）需要使用者自备 references/ 下对应文件。
 
 ## 使用方式
 
